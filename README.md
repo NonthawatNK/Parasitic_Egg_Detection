@@ -36,6 +36,7 @@ streamlit run app.py
 ```
 
 ## Project structure
+```
 Parasitic_Egg_Detection/
 ├── env                   # Evronment สำหรับ project นี้
 ├── app.py                # Streamlit web interface
@@ -43,3 +44,15 @@ Parasitic_Egg_Detection/
 ├── best.pt               # Model 
 ├── Dockerfile            # Dockerfile สำหรับ build เป็น image
 └── README.md             # เอกสารนี้
+```
+## Model Information
+- **Base Model**: YOLOv8 (Ultralytics)
+- **Training Data**: ภาพกล้องจุลทรรศน์ของไข่พยาธิ (รวบรวมและ annotate ด้วยตนเอง)
+- **Input Size**: 640 × 640 pixels
+- **Output**:: Bounding box + ชื่อชนิดของไข่พยาธิ
+- **Framework**:: PyTorch
+
+## 📊 Example Results
+| Input Image | Detection Result |
+|--------------|------------------|
+| ![Input](images/input.jpg) | ![Result](images/result.jpg) |
