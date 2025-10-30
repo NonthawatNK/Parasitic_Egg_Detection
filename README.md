@@ -59,7 +59,7 @@ Parasitic_Egg_Detection/
 
 ## APP
 <p align="center">
-  <img src="images/detection.png" width="400" />
+  <img src="images/detection.png" width="600" />
   <br>
   <em>ผลลัพธ์การตรวจจับไข่พยาธิ</em>
 </p>
