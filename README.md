@@ -56,3 +56,10 @@ Parasitic_Egg_Detection/
 | Input Image | Detection Result |
 |--------------|------------------|
 | ![Input](images/input.jpg) | ![Result](images/result.jpg) |
+
+## APP
+<p align="center">
+  <img src="images/detection.png" width="400" />
+  <br>
+  <em>ผลลัพธ์การตรวจจับไข่พยาธิ</em>
+</p>
